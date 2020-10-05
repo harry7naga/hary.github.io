@@ -1,0 +1,67 @@
+body {
+	background-image: url("pattern.jpg");
+	margin: 0;
+}
+
+h1 {
+	color: black;
+	text-align: center;
+}
+
+section {
+	background-color: white;
+	text-align: left;
+	margin-top: 150px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 100px;
+}
+
+h5 {
+	color: white;
+	text-align: center;
+}
+
+footer {
+	background-color: black;
+	margin-top: 30px;
+	padding-bottom: 1px;
+	padding-top: 1px;
+}
+
+/* navbar */
+ul {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: white;
+}
+
+li {
+	float: right;
+	border-right: none;
+}
+
+li:last-child {
+	border-left: none;
+}
+
+li a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 20px 16px;
+	text-decoration: none;
+}
+
+li a:hover:not(.active) {
+	background-color: grey;
+}
+
+.active {
+	background-color: #4CAF50;
+}
